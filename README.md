@@ -34,14 +34,14 @@ downloading to "Interplanetary Flight"...
 ## Usage
 
 LibGenAPI.search(search_term, num_results=25)
-
+```
 - PARAM (string) search_term: The term to search for on LibGen
 - PARAM (int) num_results: The maximum number of results to retrieve. Acceptable values are 25, 50, 100.
 - RETURNS: A list of results. Results are dictionaries containing information about a book (title, author, etc). 
-
+```
 LibGenAPI.download(book, filename=None)
-
+```
 - PARAM (dict) book: The book to download. This dictionary can be obtained with LibGenAPI.search().
 - PARAM (string) filename: The location to download the book to.
 - RETURNS: True if download is successful else false.
-
+```
