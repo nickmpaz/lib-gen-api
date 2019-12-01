@@ -33,8 +33,6 @@ downloading to "Interplanetary Flight"...
 100%
 ```
 
-## Usage
-
 LibGenAPI.search(search_term, num_results=25)
 ---
 PARAM (string) search_term: The term to search for on LibGen
