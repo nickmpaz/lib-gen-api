@@ -6,16 +6,13 @@ LibGenAPI is an API for Library Genesis. Library Genesis (LibGen) is a search en
 
 ## Example
 
-### Code
 ```
-from libgenapi import LibGenAPI
+>>> from libgenapi import LibGenAPI
 
-api = LibGenAPI(debug=True)
-results = api.search("arthur c clarke")
-api.download(results[0])
-```
-### Results
-```
+>>> api = LibGenAPI(debug=True)
+>>> results = api.search("arthur c clarke")
+>>> api.download(results[0])
+
 Trying search with http://gen.lib.rus.ec.
 Getting search results.
 Parsing search results.
